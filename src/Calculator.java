@@ -46,7 +46,7 @@ public class Calculator {
         System.out.println(welcome + guide);
     }
 
-    public static  boolean continueChecking(){
+    public static boolean continueChecking(){
         Scanner scan = new Scanner(System.in);
         boolean continueFlag = true;
         char continueInput;
